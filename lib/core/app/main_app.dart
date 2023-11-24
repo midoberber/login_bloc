@@ -1,11 +1,9 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:login_with_bloc/core/app/app_data.dart';
 import 'package:login_with_bloc/core/constant/colors.dart';
 import 'package:login_with_bloc/core/cubit_main/bloc_main_cubit.dart';
-import 'package:login_with_bloc/core/utils/api_basehelper.dart';
 import 'package:login_with_bloc/core/utils/navigator.dart';
 import 'package:login_with_bloc/features/auth/presentation/pages/defult_page.dart';
 import 'package:login_with_bloc/features/auth/presentation/pages/intro_page/intro_page.dart';
@@ -55,7 +53,7 @@ class MainApp extends StatelessWidget {
 
               break;
             case AppState.unauthenticated:
-              currentPage = LoginPage();
+              currentPage = const LoginPage();
               break;
             case AppState.notCompleted:
               currentPage = const DefultPage();

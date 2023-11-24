@@ -4,7 +4,6 @@ import 'package:login_with_bloc/core/app/app_preferences_storage.dart';
 import 'package:login_with_bloc/core/app/app_repository.dart';
 import 'package:login_with_bloc/core/utils/api_basehelper.dart';
 import 'package:login_with_bloc/core/utils/navigator.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/app/app_inj.dart';
 

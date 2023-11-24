@@ -11,7 +11,6 @@ import 'package:login_with_bloc/core/widgets/generic_button.dart';
 import 'package:login_with_bloc/core/widgets/generic_field.dart';
 import 'package:login_with_bloc/core/widgets/password_field.dart';
 import 'package:login_with_bloc/core/widgets/toast.dart';
-import 'package:login_with_bloc/features/auth/data/models/login_model.dart';
 import 'package:login_with_bloc/features/auth/presentation/bloc/login_bloc.dart';
 
 // when use stateless with form and validator keyboard dissmissable when type in textfield after Flutter 3.0.0
