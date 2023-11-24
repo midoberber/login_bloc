@@ -44,7 +44,7 @@ class MainApp extends StatelessWidget {
               currentPage = IntroPage();
               break;
             case AppState.guest:
-              currentPage = const HomePage();
+              currentPage = const HomePage(); // if Contain Guest
 
               break;
 
@@ -56,10 +56,10 @@ class MainApp extends StatelessWidget {
               currentPage = const LoginPage();
               break;
             case AppState.notCompleted:
-              currentPage = const DefultPage();
+              currentPage = const DefultPage(); // if Contain complete page
               break;
             case AppState.notVerified:
-              currentPage = const DefultPage();
+              currentPage = const DefultPage(); // if Contain PinCode page
               break;
             default:
               currentPage = Scaffold(
